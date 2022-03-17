@@ -4,26 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!---------------------Header-------------------->
 
     <header>
-      <section>
-        <nav>
-          <ul>
-            <li><svg></svg>NutriSite</li>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Reviews</li>
+      <section class="header">
+        <nav class="header__navigation">
+          <div class="header__logo">
+            <svg width="51" height="72">
+              <use href="./images/sprite.svg#icon-logo"></use>
+            </svg>
+            <p class="logo-text"><span class="logo-item">Nutri</span>Site</p>
+          </div>
+
+          <ul class="list header__navigation-menu">
+            <li>
+              <a class="header__navigation-menu__item link" href="">Home</a>
+            </li>
+            <li>
+              <a class="header__navigation-menu__item link" href="">Menu</a>
+            </li>
+            <li>
+              <a class="header__navigation-menu__item link" href="">About</a>
+            </li>
+            <li>
+              <a class="header__navigation-menu__item link" href="">Contact</a>
+            </li>
+            <li>
+              <a class="header__navigation-menu__item link" href="">Reviews</a>
+            </li>
           </ul>
         </nav>
       </section>
@@ -34,27 +55,27 @@
     <main>
       <!-----------------------Eat Healthy-------------->
 
-      <section class="eat-healthy">
-        <div>
-          <h2>Eat Healthy And<span>Natural Food</span></h2>
+      <section class="eat-healthy section">
+        <div class="">
+          <h2 class="eat-healthy__title-section">Eat Healthy And<span>Natural Food</span></h2>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout the
-            generated Lorem Ipsum is therefore always free from repetition.
+            It is a long established fact that a reader will be distracted by the readable content
+            of a page when looking at its layout the generated Lorem Ipsum is therefore always free
+            from repetition.
           </p>
           <button type="button">Discover Food</button>
         </div>
         <div>
           <img src="" alt="" />
         </div>
-        <ul>
+        <ul class="list">
           <li>
             <div>
               <img src="" alt="" />
               <h3>Allie Grater</h3>
               <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form.
+                There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered alteration in some form.
               </p>
             </div>
           </li>
@@ -63,9 +84,8 @@
               <img src="" alt="" />
               <h3>Percy Kewshun</h3>
               <p>
-                All the Lorem Ipsum generators on the Internet tend to repeat
-                predefined chunks as necessary, making this the first true
-                generator on the Internet.
+                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
+                necessary, making this the first true generator on the Internet.
               </p>
             </div>
           </li>
@@ -80,12 +100,12 @@
           <p>We Made Fresh and Healthy Foods...</p>
           <img src="" alt="" />
         </div>
-        <ul>
+        <ul class="list">
           <li><button type="button">Breakfast</button></li>
           <li><button type="button">Lunch</button></li>
           <li><button type="button">Dinner</button></li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
             <div>
               <img src="" alt="" />
@@ -128,10 +148,9 @@
           <h2>Type of Ingridiants in <span>Nutrition Diet</span></h2>
           <h4>Good food ends with good talk...</h4>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout the
-            generated Lorem Ipsum is therefore always free from repetition. It
-            was popularised in the 1960s with the release of Letraset sheets
+            It is a long established fact that a reader will be distracted by the readable content
+            of a page when looking at its layout the generated Lorem Ipsum is therefore always free
+            from repetition. It was popularised in the 1960s with the release of Letraset sheets
             containing Lorem Ipsum passages...
           </p>
           <div>
@@ -148,16 +167,15 @@
           <h2>Benefits of Nutrition</h2>
           <h4>Eat Healthy, Be Nutrition Wealthy</h4>
 
-          <ul>
+          <ul class="list">
             <li>
               <div>
                 <svg></svg>
                 <h3>Heart Health</h3>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable.
+                  There are many variations of passages of Lorem Ipsum available, but the majority
+                  have suffered alteration in some form, by injected humour, or randomised words
+                  which don't look even slightly believable.
                 </p>
                 <svg></svg>
               </div>
@@ -167,9 +185,8 @@
                 <svg></svg>
                 <h3>Longevity</h3>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour.
+                  There are many variations of passages of Lorem Ipsum available, but the majority
+                  have suffered alteration in some form, by injected humour.
                 </p>
                 <svg></svg>
               </div>
@@ -179,9 +196,8 @@
                 <svg></svg>
                 <h3>Cancer Prevention</h3>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, or randomised words which don't look even slightly
-                  believable.
+                  There are many variations of passages of Lorem Ipsum available, or randomised
+                  words which don't look even slightly believable.
                 </p>
                 <svg></svg>
               </div>
@@ -191,9 +207,8 @@
                 <svg></svg>
                 <h3>Immunity</h3>
                 <p>
-                  Lorem Ipsum available, but the majority have suffered
-                  alteration in some form, by injected humour, or randomised
-                  words which don't look even slightly believable.
+                  Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                  injected humour, or randomised words which don't look even slightly believable.
                 </p>
                 <svg></svg>
               </div>
@@ -203,9 +218,9 @@
                 <svg></svg>
                 <h3>Beauty</h3>
                 <p>
-                  It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, but the majority have
-                  suffered alteration in some form, by injected humour.
+                  It was popularised in the 1960s with the release of Letraset sheets containing
+                  Lorem Ipsum passages, but the majority have suffered alteration in some form, by
+                  injected humour.
                 </p>
                 <svg></svg>
               </div>
@@ -219,13 +234,9 @@
       <section>
         <h2>Your Personal <span>Nutritionist</span></h2>
         <h4>Nutrition For a Healthy Body...</h4>
-        <ul>
-          <li>
-            It is a long established fact that a reader will be distracted.
-          </li>
-          <li>
-            Nutrition is cool, if you don’t have enough of it, you’re a fool.
-          </li>
+        <ul class="list">
+          <li>It is a long established fact that a reader will be distracted.</li>
+          <li>Nutrition is cool, if you don’t have enough of it, you’re a fool.</li>
           <li>Always been wishing for healthy nutrition.</li>
           <li>Nutrition is needed to prevent sickness.</li>
           <li>Good nutrition will have you feeling your best all the time!</li>
@@ -233,7 +244,7 @@
         </ul>
         <button type="button">Get Start</button>
 
-        <ul>
+        <ul class="list">
           <li>
             <h4>Calories</h4>
             <p>250</p>
@@ -257,7 +268,7 @@
 
     <footer>
       <section>
-        <ul>
+        <ul class="list">
           <li>Home</li>
           <li>Menu</li>
           <li>About</li>
@@ -265,7 +276,7 @@
           <li>Rewiew</li>
         </ul>
         <a href="">www.nutrisite.com</a>
-        <ul>
+        <ul class="list">
           <li><a></a></li>
           <li><a></a></li>
           <li><a></a></li>
