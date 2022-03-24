@@ -1,6 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-Star" viewBox="0 0 32 32">
+<symbol id="icon-star" viewBox="0 0 32 32">
 <path fill="#f1e044" style="fill: var(--color1, #f1e044)" d="M16 0l5.267 8.752 9.949 2.304-6.693 7.712 0.88 10.176-9.403-3.984-9.405 3.984 0.883-10.176-6.693-7.712 9.949-2.304 5.267-8.752z"></path>
 </symbol>
 <symbol id="icon-logo" viewBox="0 0 23 32">
@@ -17,11 +17,11 @@
 <symbol id="icon-ic_facebook" viewBox="0 0 32 32">
 <path fill="#545454" style="fill: var(--color2, #545454)" d="M16 0c-8.836 0-16 7.164-16 16s7.164 16 16 16 16-7.164 16-16-7.164-16-16-16zM22.104 8.148l-2.213 0.001c-1.735 0-2.071 0.825-2.071 2.034v2.669h4.138l-0.002 4.178h-4.136v10.724h-4.316v-10.723h-3.608v-4.178h3.608v-3.082c0-3.577 2.185-5.525 5.376-5.525l3.224 0.005v3.898z"></path>
 </symbol>
-<symbol id="icon-CaretRight" viewBox="0 0 19 32">
+<symbol id="icon-caret-right" viewBox="0 0 19 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3684" d="M16.211 2.843l-13.159 13.157 13.159 13.159"></path>
 </symbol>
-<symbol id="icon-CaretLeft" viewBox="0 0 19 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color3, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3684" d="M2.316 2.843l13.159 13.157-13.159 13.159"></path>
+<symbol id="icon-caret-left" viewBox="0 0 19 32">
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3684" d="M2.316 2.843l13.159 13.157-13.159 13.159"></path>
 </symbol>
 </defs>
 </svg>
